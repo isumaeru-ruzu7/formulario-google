@@ -9,40 +9,75 @@
   </head>
 
   <body>
-    <div class="splash-screen"></div>
+    <div id="splashScreen" class="splash-screen"></div>
     
     <div class="form-screen">
-      <form>
-        <div class="card-user">
-          <div class="purple-line"></div>
-          <div class="header">
-            <h1>Formulário Google</h1>
-            <p>Um simples formulário com o tema do google.</p>
-            <div class="warning"><p>*Obrigatório</p></div>
+      <form name="userForm">
+        
+        <div class="user-card">
+          <div class="dark-purple-line"></div>
+          <div class="card-content">
+            <div class="header">
+              <div class="title"><h1>Formulário Google</h1></div>
+              <div class="description"><p>Um simples formulário de usuário usando o tema material design.</p></div>
+              <div class="warning"><p>* Obrigatório</p></div>
+            </div>
+            <div class="content">
+              <div class="full-name">
+                <h2>Nome Completo</h2>
+                <input name="name" type="text">
+              </div>
+              <div class="age">
+                <h2>Idade</h2>
+                <input name="age" type="number">
+              </div>
+              <div class="gender">
+                <h2>Gênero</h2>
+                
+              </div>
+            </div>
           </div>
-          <div class="content">
-            <h3>Nome Completo<span>*</span></h3>
-            <input type="text">
-            <h3>Idade<span>*</span></h3>
-            <input type="number">
-            <h3>Gênero<span>*</span></h3>
+          
+        <div class="development-time-card">
+          <div class="dark-purple-line"></div>
+           <div class="card-content">
+            <div class="header">
+              <div class="title"><h2>Há quanto tempo você desenvolve sistemas?</h2></div>
+            </div>
+            <div class="content">
+              <input type="text">
+            </div>
           </div>
         </div>
-        <div class="card-development-time">
           
+        <div class="programming-languages-card">
+          <div class="dark-purple-line"></div>
+          <div class="card-content">
+            <div class="header">
+              <div class="title"><h2>Quais IDEs ou Engines você usa no seu dia?</h2></div>
+            </div>
+            <div class="context">
+              
+            </div>
+          </div>
         </div>
-        <div class="card-programming-languages">
           
+        <div class="do-you-like-card">
+          <div class="dark-purple-line"></div>
+          <div class="card-content">
+            <div class="header">
+              <div class="title"><h2>Você gosta do que faz?</h2></div>
+            </div>
+            <div class="content">
+              
+            </div>
+          </div>
         </div>
-        <div class="card-ides-engines">
-          
-        </div>
-        <div class="card-do-you-like">
-          
-        </div>
-        <button type="submit">Enviar</button>
+            
       </form>
-      <div class=""><p>Nunca envie senhas pelo Formulário Google.</p></div>
+      <button>Enviar</button>
+      <div class="info"><p>Nunca envie senhas pelos Fomulários Google</p></div>
+      
     </div>
   </body>
 </html>
