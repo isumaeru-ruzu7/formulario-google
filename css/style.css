@@ -9,11 +9,11 @@ body, h1, h2, p{
 .form-screen {
   position: absolute;
   width: 100%;
-  height: 100%;
-  background-image: linear-gradient(180deg, #8C22FF 15%, #F0E1FF 15%);
+  background-image: linear-gradient(180deg, #8C22FF 15%, #F0E1FF 15%, #F0E1FF 100%);
 }
 
 .user-card {
+  position: relative;
   margin: 20px 20px;
   border-radius: 7px;
   background-color: white;
@@ -40,9 +40,42 @@ body, h1, h2, p{
   color: red;
 }
 
+strong {
+  color: red;
+}
+
 h2 {
   padding: 16px 0px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 20px;
+}
+
+Input {
+  padding: 6px 10px;
+  color: #121212;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  transition: color 0.2s ease-in-out;
+}
+
+input:focus {
+  border-bottom: 2px solid #8C22FF;
+}
+
+button {
+  display: block;
+  padding: 10px 16px;
+  margin: 15px 0px;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  background-color: #8C22FF;
+}
+
+button:disabled {
+  color: #9B9B9D;
+  background-color: #7233AE;
 }
