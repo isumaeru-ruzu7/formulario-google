@@ -14,7 +14,33 @@ body, h1, h2, p{
 
 .user-card {
   position: relative;
+  padding-bottom: 30px;
   margin: 20px 20px;
+  margin-bottom: 50px;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.development-time-card {
+  padding-bottom: 30px;
+  margin: 5px 20px;
+  margin-bottom: 50px;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.programming-languages-card {
+  padding-bottom: 30px;
+  margin: 5px 20px;
+  margin-bottom: 50px;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.do-you-like-card {
+  padding-bottom: 30px;
+  margin: 5px 20px;
+  margin-bottom: 40px;
   border-radius: 7px;
   background-color: white;
 }
@@ -78,4 +104,8 @@ button {
 button:disabled {
   color: #9B9B9D;
   background-color: #7233AE;
+}
+
+.content-send {
+  padding-left: 27px;
 }
