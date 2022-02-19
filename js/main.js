@@ -13,18 +13,24 @@ function validade() {
   var developmentTime = userForm.developmentTime;
   
   if (name.value == "") {
+    alert("Por favor, escreva seu nome completo.");
     name.focus();
+    return;
   }
   
   if (age.value == "") {
+    alert("Por favor, escreva sua idade.")
     age.focus();
+    return;
   }
   
   if (!(gender[0].checked || gender[1].checked || gender[2].checked)) {
     alert("Por favor, selecione um gênero.");
+    return;
   }
   
   if (developmentTime.value == "") {
     developmentTime.focus();
+    return;
   }
 }
