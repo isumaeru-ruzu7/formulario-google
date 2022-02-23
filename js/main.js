@@ -33,6 +33,9 @@ function validade() {
     developmentTime.focus();
     return;
   }
+  
+  document.getElementById("formScreen").style.display = "none";
+  document.getElementById("concludedScreen").style.display = "block";
 }
 
 var splash = document.getElementById("splashScreen");

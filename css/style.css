@@ -132,3 +132,18 @@ button:disabled {
 .content-send {
   padding-left: 27px;
 }
+
+.concludedScreen {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background-image: linear-gradient(180deg, #8C22FF 15%, #F0E1FF 15%, #F0E1FF 100%);
+}
+
+.thank-card {
+  padding-bottom: 30px;
+  margin: 5px 20px;
+  margin-bottom: 40px;
+  border-radius: 7px;
+  background-color: white;
+}
