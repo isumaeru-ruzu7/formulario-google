@@ -21,6 +21,14 @@ body, h1, h2, p{
   transition: all 0.5s;
 }
 
+img {
+  position: absolute;
+  width: 24%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .form-screen {
   position: absolute;
   width: 100%;
