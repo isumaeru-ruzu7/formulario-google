@@ -34,3 +34,10 @@ function validade() {
     return;
   }
 }
+
+var splash = document.getElementById("splashScreen");
+document.addEventListener("DOMContentLoaded", (e) => {
+  setTimeout(()=>{
+    splash.classList.add("display-none");
+  }, 2100);
+});
