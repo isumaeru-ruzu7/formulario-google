@@ -30,6 +30,7 @@ function getValues() {
     console.log("Sim");
   }else if (document.getElementById("likeR2").checked) {
     console.log("Não");
+    console.log(document.getElementById("inputWhyYouDontLike").value);
   }
 }
 
