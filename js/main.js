@@ -6,6 +6,33 @@ function inputWhy(disabled) {
   document.getElementById("inputWhyYouDontLike").disabled = disabled;
 }
 
+function getValues() {
+  var name = userForm.name;
+  console.log(name.value);
+  var age = userForm.age;
+  console.log(age.value);
+  
+  if (document.getElementById("genderR1").checked) {
+    console.log("Masculino");
+  }else if (document.getElementById("genderR2").checked) {
+    console.log("Feminino");
+  }else if (document.getElementById("genderR3").checked) {
+    console.log("Não Binário")
+  }
+  
+  var developmentTime = userForm.developmentTime;
+  console.log(developmentTime.value);
+  
+  var idesEngines = userForm.ides;
+  console.log(idesEngines.value);
+  
+  if (document.getElementById("likeR1").checked) {
+    console.log("Sim");
+  }else if (document.getElementById("likeR2").checked) {
+    console.log("Não");
+  }
+}
+
 function validade() {
   var name = userForm.name;
   var age = userForm.age;
@@ -36,6 +63,8 @@ function validade() {
   
   document.getElementById("formScreen").style.display = "none";
   document.getElementById("concludedScreen").style.display = "block";
+  
+  getValues();
 }
 
 var splash = document.getElementById("splashScreen");

@@ -36,13 +36,13 @@
               </div>
               <div class="gender">
                 <h2>Gênero<strong>*</strong></h2>
-                <input type="radio" name="gender" id="">
+                <input name="gender" type="radio" id="genderR1">
                 <label for="male">Masculino</label>
                 <br>
-                <input type="radio" name="gender" id="">
+                <input name="gender" type="radio" id="genderR2">
                 <label for="female">Feminino</label>
                 <br>
-                <input type="radio" name="gender" id="">
+                <input name="gender" type="radio" id="genderR3">
                 <label for="non-binary">Não Binário</label>
                 <br>
               </div>
@@ -61,13 +61,13 @@
           </div>  
         </div>
           
-        <div class="programming-languages-card">
+        <div class="ides-engines-card">
           <div class="card-content">
             <div class="header">
               <div class="title"><h2>Quais IDEs ou Engines você usa no seu dia?</h2></div>
             </div>
             <div class="context">
-              <input type="text" placeholder="Sua resposta">
+              <input name="ides" type="text" placeholder="Sua resposta">
             </div>
           </div>
         </div>
@@ -78,10 +78,10 @@
               <div class="title"><h2>Você gosta do que faz?</h2></div>
             </div>
             <div class="content">
-              <input type="radio" name="do-you-like" id="" onclick="inputWhy(true)">
+              <input name="do-you-like" type="radio" id="likeR1" onclick="inputWhy(true)">
               <label for="">Sim</label>
               <br>
-              <input type="radio" name="do-you-like" id="" onclick="inputWhy(false)">
+              <input name="do-you-like" type="radio" id="likeR2" onclick="inputWhy(false)">
               <label for="">Não</label>
               <span><input type="text" id="inputWhyYouDontLike" placeholder="Porque?" disabled=""></span>
             </div>
