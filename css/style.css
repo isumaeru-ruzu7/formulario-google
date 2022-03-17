@@ -30,9 +30,16 @@ img {
 }
 
 .form-screen {
+  display: auto;
   position: absolute;
   width: 100%;
   background-image: linear-gradient(180deg, #8C22FF 15%, #F0E1FF 15%, #F0E1FF 100%);
+}
+
+@media only screen and (min-width: 600px) {
+  .form-screen {
+    height: 100%;
+  }
 }
 
 .user-card {
